@@ -1,0 +1,72 @@
+h1{
+    margin: 30px, 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+    
+}
+
+section a{
+    padding: 13px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+    margin-left: 1rem;
+}
+.btnone{
+    /*background: #00b894;*/
+    background: #fff;
+    color: #000;
+}
+.btnone:hover{
+    background: #00b894;
+    color: white; 
+}
+
+.btntwo{
+    background: #00b894;
+    color: white; 
+}
+
+.btntwo:hover{
+    background: #fff;
+    color: #000;
+}
+
+.change_content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+}
+@keyframes  changetext{
+    0%{content: "BRANCHES"}
+    20%{content: "ACCRA"}
+    35%{content: "KUMASI"}
+    60%{content: "CIRCLE"}
+    80%{content: "LAPAZ"}
+    100%{content: "AMASAMAN"}
+}
+
+section p{
+    font-size: 25px;
+    color: #eee;
+    white-space: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+main{
+    height: 100%;
+    width: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;color: white;
+    margin-top: -5rem;
+}
